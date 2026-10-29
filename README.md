@@ -2,7 +2,7 @@
 
 **English** · [中文](README.zh-CN.md)
 
-[![CI](https://github.com/turinglambdaai/tiff/actions/workflows/ci.yml/badge.svg)](https://github.com/turinglambdaai/tiff/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![CI](https://github.com/turlamai/tiff/actions/workflows/ci.yml/badge.svg)](https://github.com/turlamai/tiff/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 FFI bindings to [libtiff](https://libtiff.gitlab.io/libtiff/) for Racket:
 decode any TIFF that libtiff can read into RGBA pixels, encode RGBA pixels
@@ -147,6 +147,6 @@ then update the expected values in `tiff/test/tiff-tests.rkt` if needed.
 
 ## License
 
-[MIT](LICENSE) — Copyright (c) 2026 turinglambdaai.  libtiff itself is
+[MIT](LICENSE) — Copyright (c) 2026 TurLamAI (formerly turinglambdaai).  libtiff itself is
 dynamically loaded from the system and remains under its own license
 ([libtiff license](https://libtiff.gitlab.io/libtiff/misc.html)).
