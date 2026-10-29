@@ -12,7 +12,7 @@
 (define build-deps '("scribble-lib" "racket-doc" "rackunit-lib"))
 (define pkg-desc
   "FFI bindings to libtiff: decode TIFF images to RGBA, encode RGBA to TIFF, and read TIFF metadata.")
-(define pkg-authors '("turinglambdaai"))
+(define pkg-authors '("turlamai"))
 (define license 'MIT)
 ;; The catalog build farm runs `raco test --package`, executing every module
 ;; in the package as a test.  The modules that load libtiff at require time

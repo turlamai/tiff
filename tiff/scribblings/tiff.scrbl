@@ -6,7 +6,7 @@
                      racket/contract))
 
 @title[#:tag "top"]{tiff: TIFF images via libtiff}
-@author{turinglambdaai}
+@author{TurLamAI}
 
 @defmodule[tiff]
 

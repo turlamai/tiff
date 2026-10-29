@@ -2,7 +2,7 @@
 
 [English](README.md) · **中文**
 
-[![CI](https://github.com/turinglambdaai/tiff/actions/workflows/ci.yml/badge.svg)](https://github.com/turinglambdaai/tiff/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![CI](https://github.com/turlamai/tiff/actions/workflows/ci.yml/badge.svg)](https://github.com/turlamai/tiff/actions/workflows/ci.yml) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 Racket 的 [libtiff](https://libtiff.gitlab.io/libtiff/) FFI 绑定：把 libtiff 能读取的任意 TIFF 解码为 RGBA 像素，把 RGBA 像素编码为 TIFF，并读取基本元数据。
 
@@ -105,4 +105,4 @@ sips -s format tiff tiny-red.png --out test/data/golden-sips-red-7x5.tiff
 
 ## 许可证
 
-[MIT](LICENSE) — Copyright (c) 2026 turinglambdaai。libtiff 本身从系统动态加载，仍遵循其自身的许可证（[libtiff license](https://libtiff.gitlab.io/libtiff/misc.html)）。
+[MIT](LICENSE) — Copyright (c) 2026 TurLamAI (formerly turinglambdaai)。libtiff 本身从系统动态加载，仍遵循其自身的许可证（[libtiff license](https://libtiff.gitlab.io/libtiff/misc.html)）。
